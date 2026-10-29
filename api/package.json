@@ -68,8 +68,10 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   },
-  "overrides": {
-    "handlebars": "^4.7.10",
-    "proxy-addr": "^2.0.8"
+  "pnpm": {
+    "overrides": {
+      "handlebars": "^4.7.10",
+      "proxy-addr": "^2.0.8"
+    }
   }
 }
